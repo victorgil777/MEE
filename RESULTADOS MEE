@@ -1,0 +1,114 @@
+lavaan 0.6-9 ended normally after 97 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        21
+                                                      
+  Number of observations                           131
+                                                      
+Model Test User Model:
+                                                      
+  Test statistic                               168.434
+  Degrees of freedom                                 7
+  P-value (Chi-square)                         188.434
+
+Model Test Baseline Model:
+
+  Test statistic                               656.786
+  Degrees of freedom                                21
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.715
+  Tucker-Lewis Index (TLI)                       0.144
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -1079.715
+  Loglikelihood unrestricted model (H1)       -985.498
+                                                      
+  Akaike (AIC)                                2201.430
+  Bayesian (BIC)                              2261.809
+  Sample-size adjusted Bayesian (BIC)        2195.388
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.445
+  90 Percent confidence interval - lower         0.391
+  90 Percent confidence interval - upper         0.501
+  P-value RMSEA <= 0.05                          0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.118
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  C_Padres =~                                                           
+    V1                1.000                               0.451    0.466
+    V2                2.705    0.534    5.061    0.000    1.220    1.036
+  C_Maestros =~                                                         
+    V3                1.000                               0.694    0.600
+    V4                1.461    0.203    7.212    0.000    1.014    0.946
+  Autoinforme =~                                                        
+    V5                1.000                               0.763    1.000
+  Depresion =~                                                          
+    V6                1.000                               0.873    1.000
+  Ansiedad =~                                                           
+    V7                1.000                               1.170    1.000
+  Psicologica =~                                                        
+    C_Padres          1.000                               0.438    0.438
+    C_Maestros        2.442    0.795    3.073    0.002    0.696    0.696
+    Autoinforme       3.479    1.165    2.987    0.003    0.901    0.901
+    Depresion         4.571    1.321    3.460    0.001    1.035    1.035
+    Ansiedad          4.342    2.015    2.155    0.031    0.734    0.734
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+ .C_Padres ~~                                                           
+   .Depresion         0.119    0.042    2.862    0.004    1.253    1.253
+ .C_Maestros ~~                                                         
+   .Ansiedad         -0.238    0.127   -1.865    0.062   -0.600   -0.600
+ .Depresion ~~                                                          
+   .Ansiedad         -0.252    0.194   -1.299    0.194   -1.356   -1.356
+ .Autoinforme ~~                                                        
+   .Depresion        -0.207    0.107   -1.943    0.052   -2.675   -2.675
+   .Ansiedad         -0.328    0.191   -1.715    0.086   -1.246   -1.246
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .V1                0.732    0.093    7.891    0.000    0.732    0.782
+   .V2               -0.101    0.151   -0.667    0.504   -0.101   -0.073
+   .V3                0.857    0.113    7.609    0.000    0.857    0.640
+   .V4                0.121    0.083    1.457    0.145    0.121    0.106
+   .V5                0.000                               0.000    0.000
+   .V6                0.000                               0.000    0.000
+   .V7                0.000                               0.000    0.000
+   .C_Padres          0.165    0.060    2.760    0.006    0.808    0.808
+   .C_Maestros        0.249    0.086    2.882    0.004    0.516    0.516
+   .Autoinforme       0.110    0.104    1.060    0.289    0.188    0.188
+   .Depresion        -0.055    0.160   -0.342    0.732   -0.072   -0.072
+   .Ansiedad          0.632    0.391    1.615    0.106    0.462    0.462
+    Psicologica       0.039    0.023    1.709    0.087    1.000    1.000
+
+R-Square:
+                   Estimate
+    V1                0.218
+    V2                   NA
+    V3                0.360
+    V4                0.894
+    V5                1.000
+    V6                1.000
+    V7                1.000
+    C_Padres          0.192
+    C_Maestros        0.484
+    Autoinforme       0.812
+    Depresion            NA
+    Ansiedad          0.538
