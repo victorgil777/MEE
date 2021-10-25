@@ -73,13 +73,14 @@ Latent Variables:
 Covariances:
                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
  .C_Padres ~~                                                           
-   .Depresion         0.119    0.042    2.862    0.004    1.253    1.253
+   .Depresion         0.119    0.042    2.862    0.064    1.253    1.253
  .C_Maestros ~~                                                         
    .Ansiedad         -0.238    0.127   -1.865    0.062   -0.600   -0.600
  .Depresion ~~                                                          
    .Ansiedad         -0.252    0.194   -1.299    0.194   -1.356   -1.356
  .Autoinforme ~~                                                        
    .Depresion        -0.207    0.107   -1.943    0.052   -2.675   -2.675
+ .Autoinforme ~~                                                        
    .Ansiedad         -0.328    0.191   -1.715    0.086   -1.246   -1.246
 
 Variances:
