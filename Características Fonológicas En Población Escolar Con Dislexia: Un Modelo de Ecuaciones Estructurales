@@ -1,0 +1,137 @@
+lavaan 0.6-9 ended normally after 125 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        34
+                                                      
+  Number of observations                           114
+                                                      
+Model Test User Model:
+                                              Standard      Robust
+  Test Statistic                                54.106      51.161
+  Degrees of freedom                                32          32
+  P-value (Chi-square)                         589.619     299.593
+  Scaling correction factor                                  1.058
+       Satorra-Bentler correction                                 
+
+Model Test Baseline Model:
+
+  Test statistic                               187.532     199.173
+  Degrees of freedom                                55          55
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.968
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.959       0.922
+  Tucker-Lewis Index (TLI)                       0.929       0.865
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.958
+  Robust Tucker-Lewis Index (TLI)                            0.928
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -2783.386   -2783.386
+  Loglikelihood unrestricted model (H1)      -2756.333   -2756.333
+                                                                  
+  Akaike (AIC)                                5634.773    5634.773
+  Bayesian (BIC)                              5727.803    5727.803
+  Sample-size adjusted Bayesian (BIC)         5620.341    5620.341
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.078       0.072
+  90 Percent confidence interval - lower         0.039       0.032
+  90 Percent confidence interval - upper         0.113       0.107
+  P-value RMSEA <= 0.05                          0.104       0.151
+                                                                  
+  Robust RMSEA                                               0.075
+  90 Percent confidence interval - lower                     0.032
+  90 Percent confidence interval - upper                     0.111
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.046       0.046
+
+Parameter Estimates:
+
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Latent Variables:
+                               Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Fluidez_Fonologica =~                                                             
+    V1                            1.000                               2.622    0.845
+    V2                            1.223    0.098   12.501    0.000    3.206    0.896
+    V3                            1.188    0.130    9.134    0.000    3.115    0.915
+  Fluidez_Semantica =~                                                              
+    V4                            1.000                               4.028    0.878
+    V5                            0.403    0.073    5.555    0.000    1.623    0.595
+  Repeticion_Frases =~                                                              
+    V6                            1.000                               2.262    1.000
+  Repeticion_Pseudopalabras =~                                                      
+    V7                            1.000                               1.420    1.000
+  Denominacion =~                                                                   
+    V8                            1.000                               2.064    1.000
+  Comprension_Verbal_WISCIV =~                                                      
+    V9                            1.000                               2.452    0.760
+    V10                           0.792    0.125    6.337    0.000    1.942    0.787
+    V11                           0.712    0.133    5.351    0.000    1.745    0.622
+
+Covariances:
+                               Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Fluidez_Fonologica ~~                                                             
+    Fluidez_Semntc                5.851    1.418    4.127    0.061    0.554    0.554
+    Rptcn_Psdplbrs                0.100    0.544    0.183    0.855    0.027    0.027
+    Repeticin_Frss                1.396    0.523    2.669    0.068    0.235    0.235
+    Denominacion                  1.605    0.670    2.397    0.267    0.297    0.297
+    Cmprn_V_WISCIV                1.734    0.886    1.957    0.761    0.270    0.270
+  Fluidez_Semantica ~~                                                              
+    Repeticin_Frss                2.858    0.926    3.087    0.002    0.314    0.314
+    Rptcn_Psdplbrs                0.287    0.693    0.414    0.679    0.050    0.050
+    Denominacion                  2.616    0.939    2.785    0.005    0.315    0.315
+    Cmprn_V_WISCIV                1.590    1.067    1.490    0.136    0.161    0.161
+  Repeticion_Frases ~~                                                              
+    Rptcn_Psdplbrs                0.478    0.314    1.520    0.128    0.149    0.149
+    Denominacion                  2.694    0.507    5.313    0.000    0.577    0.577
+    Cmprn_V_WISCIV                3.069    0.743    4.130    0.000    0.553    0.553
+  Repeticion_Pseudopalabras ~~                                                      
+    Denominación                  0.255    0.282    0.903    0.366    0.087    0.087
+    Cmprn_V_WISCIV                0.635    0.395    1.608    0.108    0.182    0.182
+  Denominación ~~                                                                   
+    Cmprn_V_WISCIV                3.709    0.719    5.159    0.000    0.733    0.733
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .V1                2.745    0.612    4.486    0.000    2.745    0.285
+   .V2                2.519    0.524    4.810    0.000    2.519    0.197
+   .V3                1.874    0.479    3.911    0.000    1.874    0.162
+   .V4                4.829    3.550    1.360    0.174    4.829    0.229
+   .V5                4.817    1.241    3.882    0.000    4.817    0.646
+   .V6                0.000                               0.000    0.000
+   .V7                0.000                               0.000    0.000
+   .V8                0.000                               0.000    0.000
+   .V9                4.386    0.860    5.100    0.000    4.386    0.422
+   .V10               2.315    0.446    5.194    0.000    2.315    0.380
+   .V11               4.821    0.767    6.285    0.000    4.821    0.613
+    Fluidez_Fonlgc    6.874    3.602    1.908    0.056    1.000    1.000
+    Fluidez_Semntc   16.227    4.709    3.446    0.001    1.000    1.000
+    Repeticin_Frss    5.119    0.622    8.232    0.000    1.000    1.000
+    Rptcn_Psdplbrs    2.017    0.240    8.415    0.000    1.000    1.000
+    Denominacion      4.262    0.543    7.853    0.000    1.000    1.000
+    Cmprn_V_WISCIV    6.010    1.671    3.597    0.000    1.000    1.000
+
+R-Square:
+                   Estimate
+    V1                0.715
+    V2                0.803
+    V3                0.838
+    V4                0.771
+    V5                0.354
+    V6                1.000
+    V7                1.000
+    V8                1.000
+    V9                0.578
+    V10               0.620
+    V11               0.387
